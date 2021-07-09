@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/clientDB" , {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://admin-amit:Test-123@cluster0.kxfkn.mongodb.net/blogDB" , {useNewUrlParser:true});
 
 var springedge = require('springedge')
 
